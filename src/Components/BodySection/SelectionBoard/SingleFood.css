@@ -1,0 +1,74 @@
+.singleFood{
+    border-bottom: 2px solid #282c34;
+    color: #282c34;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 80%; */
+    padding: 20px;
+}
+.singleFood h1{
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+.singleFoosData p{
+    font-size: 14px;
+    font-style: italic;
+    margin: 0px;
+    padding: 0px;
+}
+.price{
+    color: rgb(211, 141, 49);
+}
+.singleFoosData{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.quantitySection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quantitybuttonsSection{
+    display: flex;align-items: center;
+}
+.qualtityAmount{
+    margin-left: 10px;
+    /* margin-right: 5px; */
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+.quantituButton{
+    margin-left: 10px; background-color: #282c34; border: #282c34;
+    color: white; border-radius: 10px; font-size: 20px; padding-left: 10px; padding-right: 10px;
+    font-weight: bold;
+}
+.addButton{
+    background-color: brown;
+    color: white;
+    font-weight: bolder;
+    border-radius: 20px;
+    border: brown;
+    font-size: 14px;
+    padding: 10px 25px;
+}
+.singleFoodControlls{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+@media (max-width:768px) {
+    .singleFoosData{
+        width: 55%;
+    }
+    .singleFoodControlls{
+        width: 30%;
+    }
+    .quantitySection{
+        flex-direction: column;
+    }
+}

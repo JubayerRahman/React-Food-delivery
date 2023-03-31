@@ -1,0 +1,15 @@
+.Psinngle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+    border-bottom: 1px solid black;
+}
+.Psinngle h1{
+    font-size: 20px;
+}
+.quantity{
+    display: flex;
+}

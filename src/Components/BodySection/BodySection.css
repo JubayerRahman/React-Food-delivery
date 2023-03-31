@@ -1,0 +1,31 @@
+.bodySection{
+    background-color: #282c34;
+    /* padding: 50px; */
+}
+.imageBg{
+    margin-top: 10vh;
+    padding-top: 5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("./Assets/meals.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.selectionSection{
+    margin-top: 10%;
+    margin-bottom: 10vh;
+    /* background-color: white; */
+    color: #282c34;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:768px) {
+    .selectionSection{
+        margin-top: 40%;
+        margin-bottom: 10vh;
+    }
+}

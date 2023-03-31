@@ -1,0 +1,26 @@
+.cardSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cardComponents{
+    width:40vw;
+    background-color: #282c34;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: -5%;
+}
+@media (max-width:768px) {
+    .cardComponents{
+        width: 70vw;
+        margin-bottom: -30%;
+    }
+    .cardComponents h3{
+        font-size: 15px;
+    }
+    .cardComponents p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+}
